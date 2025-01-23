@@ -13,7 +13,7 @@ const Contact = () => {
 
     await axios
       .post(
-        "http://localhost:3000/api/v1/message/send",
+        "https://donation-mern.onrender.com/api/v1/message/send",
         { name, email, phone, message },
         {
           withCredentials: true,

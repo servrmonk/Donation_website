@@ -21,7 +21,7 @@ const DonateForm = () => {
 
     try {
       // Step 1: Create a Checkout session on your backend
-      const { data } = await axios.post("http://localhost:3000/api/v1/checkout", {
+      const { data } = await axios.post("https://donation-mern.onrender.com/api/v1/checkout", {
         amount: amount,
         name: name,
         email: email,

@@ -1,4 +1,6 @@
-const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY); // 
+const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY); 
+console.log("stripe secret key ",process.env.STRIPE_SECRET_KEY)
+
 
 const Volunteer = require('../model/volunteer.model'); // Import the Volunteer model
 
